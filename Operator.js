@@ -33,3 +33,8 @@ console.log("cond1 && cond2 = ", a>b && a===6);
 console.log("cond1 || cond2 = ", a>b || a===6);
 console.log("!(a > b) = " , ! (a>b));
 
+// 6. termary operators
+
+let age = 25;
+let result = age >= 18 ? "adult" : " not adult";
+console.log(result);
