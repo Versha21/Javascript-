@@ -7,7 +7,7 @@ let agelimit = 30;
 if (agelimit >= 18){
   console.log("you CAN vote");
 }
-(agelimit < 18){
+if (agelimit < 18){
   console.log("you CANNOT vote");
 }
 // 1(b).
@@ -21,3 +21,36 @@ if (mode == "Light"){
   color ="white";
 }
 console.log(color);
+
+// 2. if - else statement
+
+if (mode == "Dark"){
+  color ="blue";
+}
+else {
+  color ="white";
+}
+console.log(color);
+
+let x = 10;
+
+if (x%2 == 0){
+  console.log("This is the Even number");
+}
+else {
+  console.log("This is the Odd number");
+}
+
+// 3. else - if statement
+
+let year = 2006
+
+if (year < 1997){
+  console.log("Millennial");
+}
+else if (year >= 1997 && year <= 2006){
+  console.log("Gen-z");
+}
+else{
+  console.log("Gen-alpha");
+}
