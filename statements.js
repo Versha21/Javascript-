@@ -23,7 +23,6 @@ if (mode == "Light"){
 console.log(color);
 
 // 2. if - else statement
-
 if (mode == "Dark"){
   color ="blue";
 }
@@ -42,7 +41,6 @@ else {
 }
 
 // 3. else - if statement
-
 let year = 2006
 
 if (year < 1997){
@@ -53,4 +51,14 @@ else if (year >= 1997 && year <= 2006){
 }
 else{
   console.log("Gen-alpha");
+}
+
+
+//practice question
+let num = prompt("Enter a number :");
+if (num % 5 === 0){
+  console.log(num ,"This number is divisible by 5");
+}
+else {
+  console.log(num ,"This number is not divisible by 5");
 }
