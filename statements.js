@@ -53,12 +53,22 @@ else{
   console.log("Gen-alpha");
 }
 
+let score = 85;
+let grade;
+if (score >= 90 && score <= 100){
+ grade = "A";
+}
+else if (score >= 70 && score <= 89){
+  grade = "B";
+}
+else if (score >= 60  && score <= 70){
+  grade = "C";
+}
+else if (score >= 50 && score <= 59){
+  grade = "D";
+}
+else if (score >= 0 && score <= 49){
+  grade = "F";
+}
 
-//practice question
-let num = prompt("Enter a number :");
-if (num % 5 === 0){
-  console.log(num ,"This number is divisible by 5");
-}
-else {
-  console.log(num ,"This number is not divisible by 5");
-}
+console.log("According to your score ,Your grade was :"+grade);
