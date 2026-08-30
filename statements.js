@@ -22,6 +22,7 @@ if (mode == "Light"){
 }
 console.log(color);
 
+
 // 2. if - else statement
 if (mode == "Dark"){
   color ="blue";
@@ -39,6 +40,7 @@ if (x%2 == 0){
 else {
   console.log("This is the Odd number");
 }
+
 
 // 3. else - if statement
 let year = 2006
@@ -72,3 +74,16 @@ else if (score >= 0 && score <= 49){
 }
 
 console.log("According to your score ,Your grade was :"+grade);
+
+// 4. alert statement
+alert("Hello! Welcome to the world of JavaScript");
+
+
+// // 5. prompt statement\
+// let num = prompt("enter a number");
+//  if (num%5 == 0){
+//   console.log("This number is divisible by 5");
+//   }
+//   else{
+//     console.log("This number is NOT divisible by 5");
+//   }
