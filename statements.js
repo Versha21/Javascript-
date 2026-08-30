@@ -87,3 +87,25 @@ alert("Hello! Welcome to the world of JavaScript");
 //   else{
 //     console.log("This number is NOT divisible by 5");
 //   }
+// let marks = prompt("Enter your score(0-100):");
+// let grad;
+// if (marks >= 90 && marks <= 100){
+//  grad = "A";
+// }
+// else if (marks >= 70 && marks <= 89){
+//   grad = "B";
+// }
+// else if (marks >= 60  && marks <= 70){
+//   grad = "C";
+// }
+// else if (marks >= 50 && marks <= 59){
+//   grad = "D";
+// }
+// else if (marks >= 0 && marks <= 49){
+//   grad = "F";
+// }
+
+// console.log("According to your score ,Your grade was :"+grad);
+
+
+// but prompt statement is not working .
