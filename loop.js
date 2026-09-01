@@ -32,10 +32,7 @@ let j = 20;
 do {
   console.log("Apna College");
   j++;
-}while (j<=30);
-
-//for-of loop
-
+}while (j<= 10);
 
 
 
