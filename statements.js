@@ -75,8 +75,8 @@ else if (score >= 0 && score <= 49){
 
 console.log("According to your score ,Your grade was :"+grade);
 
-// // 4. alert statement
-// alert("Hello! Welcome to the world of JavaScript");
+// 4. alert statement
+alert("Hello! Welcome to the world of JavaScript");
 
 
 // // 5. prompt statement\

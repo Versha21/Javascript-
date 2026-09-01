@@ -20,5 +20,21 @@ console.log("loop was ended");
 // console.log("sum = " + sum);
 // console.log("loop was ended");
 
+// while loop
+let i = 1;
+while (i <= 10){
+  console.log("Apna College");
+  i++;
+}
+
+//do while loop
+let j = 20;
+do {
+  console.log("Apna College");
+  j++;
+}while (j<=30);
+
+//for-of loop
+
 
 
