@@ -11,14 +11,14 @@ for (let i = 0; i <= 5; i++) {
 console.log("sum = " + sum);
 console.log("loop was ended");
 
-// also use this for 1 10 n
-// let sum = 0;
-// let n = 5;
-// for (let i = 0 ; i <= n ; i++){
-//   sum += i;
-// }
-// console.log("sum = " + sum);
-// console.log("loop was ended");
+//also use this for 1 10 n
+let s = 0;
+let n = 5;
+for (let i = 0 ; i <= n ; i++){
+  s += i;
+}
+console.log("sum = " + s);
+console.log("loop was ended");
 
 // while loop
 let i = 1;
