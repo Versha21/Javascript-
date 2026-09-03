@@ -79,7 +79,7 @@ console.log("According to your score ,Your grade was :"+grade);
 // alert("Hello! Welcome to the world of JavaScript");
 
 
-// // 5. prompt statement\
+// // 5. prompt statement
 // let num = prompt("enter a number");
 //  if (num%5 == 0){
 //   console.log("This number is divisible by 5");
@@ -101,11 +101,13 @@ console.log("According to your score ,Your grade was :"+grade);
 // else if (marks >= 50 && marks <= 59){
 //   grad = "D";
 // }
-// else if (marks >= 0 && marks <= 49){
-//   grad = "F";
+// else {
+//   grad = "E";
 // }
 
 // console.log("According to your score ,Your grade was :"+grad);
 
 
-// but prompt statement is not working .
+// but prompt statement is not working in nodejs or VS Code.
+
+

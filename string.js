@@ -66,10 +66,3 @@ console.log(string1.charAt(5));
 let str5 = "Hello";
 str5 = str5.replace("lo", "p");
 console.log(str5);
-
-
-// Questions
-const readline = require("readline-sync");
-let Fullname = readline.question("Enter your Fullname ");
-let username = "@" + Fullname + Fullname.length;
-console.log(username);
