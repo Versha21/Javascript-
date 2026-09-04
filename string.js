@@ -66,3 +66,4 @@ console.log(string1.charAt(5));
 let str5 = "Hello";
 str5 = str5.replace("lo", "p");
 console.log(str5);
+

@@ -62,12 +62,12 @@ for (let num = 0; num <= 100; num++) {
 }
 
 // PROMPT - THIS IS NOT WORKING IN VSCODE, SO I COMMENTED IT OUT
-// //question 2
-// let gamenumber = 25;
-// let usernum = prompt("Guess the game number:");
-// while (usernum != gamenumber) {
-//   usernum = prompt("You entered the wrong number, guess again:");
-// }
-// console.log("Congratulations! you entered the right number");
+//question 2
+let gamenumber = 25;
+let usernum = prompt("Guess the game number:");
+while (usernum != gamenumber) {
+  usernum = prompt("You entered the wrong number, guess again:");
+}
+console.log("Congratulations! you entered the right number");
 
 
