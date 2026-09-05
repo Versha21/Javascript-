@@ -79,35 +79,35 @@ console.log("According to your score ,Your grade was :" + grade);
 // alert("Hello! Welcome to the world of JavaScript");
 
 
-// 5. prompt statement
-let num = prompt("Enter your number:");
-if (num % 5 == 0) {
-  console.log("This number is divisible by 5");
-}
-else {
-  console.log("This number is NOT divisible by 5");
-}
+// // 5. prompt statement
+// let num = prompt("Enter your number:");
+// if (num % 5 == 0) {
+//   console.log("This number is divisible by 5");
+// }
+// else {
+//   console.log("This number is NOT divisible by 5");
+// }
 
-let marks = prompt("Enter your score(0-100):");
-let grad;
-if (marks >= 90 && marks <= 100){
- grad = "A";
-}
-else if (marks >= 70 && marks <= 89){
-  grad = "B";
-}
-else if (marks >= 60  && marks <= 70){
-  grad = "C";
-}
-else if (marks >= 50 && marks <= 59){
-  grad = "D";
-}
-else {
-  grad = "E";
-}
+// let marks = prompt("Enter your score(0-100):");
+// let grad;
+// if (marks >= 90 && marks <= 100){
+//  grad = "A";
+// }
+// else if (marks >= 70 && marks <= 89){
+//   grad = "B";
+// }
+// else if (marks >= 60  && marks <= 70){
+//   grad = "C";
+// }
+// else if (marks >= 50 && marks <= 59){
+//   grad = "D";
+// }
+// else {
+//   grad = "E";
+// }
 
-console.log("According to your score ,Your grade was :"+grad);
+// console.log("According to your score ,Your grade was :"+grad);
 
 
-// but prompt statement is not working in nodejs or VS Code.
+// // but prompt statement is not working in nodejs or VS Code.
 
